@@ -23,62 +23,62 @@ chris@boyle.name and I'll be happy to include it in future versions.
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- About box -->
-    <string name="about_content">"Simon Tatham’s Portable Puzzle Collection
-Version %s"</string>
-    <string name="copy_version_number">Copy version number to clipboard</string>
+    <string name="about_content">"Simon Tatham 的移动谜题集合
+版本 %s"</string>
+    <string name="copy_version_number">将版本号复制到剪贴板</string>
     <!-- Things used by the Android front-end only -->
-    <string name="app_name">Puzzles</string>
-    <string name="missing_game_generator">Puzzles is missing a required file! Try reinstalling from Google Play</string>
+    <string name="app_name">谜题</string>
+    <string name="missing_game_generator">谜题缺失必需文件！请尝试从 Google Play 重新安装</string>
     <string name="website_url" translatable="false">https://chris.boyle.name/projects/android-puzzles/</string>
     <string name="feedback_dialog" tools:ignore="TypographyQuotes"><![CDATA[
-<p>There are two ways to send feedback:</p>
-<p><a href="https://play.google.com/store/apps/details?id={0}">Leave a review at Google Play</a></p>
-<p><a href="{1}">Report a bug or feature request at GitHub</a></p>
-<p>GitHub allows attachments like screenshots and saved games, but requires creating an account.</p>
-<p>Any data you give to Google or GitHub is subject to their respective terms and privacy policies.</p>
+<p>有两种方式发送反馈：</p>
+<p><a href="https://play.google.com/store/apps/details?id={0}">在 Google Play 留下评论</a></p>
+<p><a href="{1}">在 GitHub 报告缺陷或请求功能</a></p>
+<p>GitHub 允许添加截图与已保存游戏等等附件，但需要先创建账户。</p>
+<p>您提供给 Google 或 GitHub 的数据受其相应的条款与隐私政策管制。</p>
 ]]></string>
-    <string name="feedback_version">Puzzles version number: {0}</string>
-    <string name="bug_dialog">Oops! You’ve hit a bug: “{0}”. Would you like to report this at the GitHub issue tracker so I can investigate? This is subject to GitHub’s terms and privacy policy.</string>
-    <string name="report">Report</string>
-    <string name="cancel">Cancel</string>
-    <string name="no_browser_title">Failed to launch browser/application</string>
+    <string name="feedback_version">谜题版本号：{0}</string>
+    <string name="bug_dialog">不好！您遇到了缺陷：“{0}”。您想要在 GitHub 上报告此问题，以便我进行调查吗？这受 GitHub 的条款与隐私政策管制。</string>
+    <string name="report">报告</string>
+    <string name="cancel">取消</string>
+    <string name="no_browser_title">无法启动浏览器/应用</string>
     <string name="no_browser_body">To complete the action you requested, open this URL in a browser:</string>
     <string name="old_file_manager">Unexpected old file manager; please tell me what app sent you here</string>
-    <string name="toast_swap_l_r_on">Swapped press &amp; long-press</string>
-    <string name="toast_swap_l_r_off">Press &amp; long-press are no longer swapped</string>
-    <string name="version_for_clipboard">Version {0}</string>
-    <string name="version_copied">Version number copied to clipboard</string>
-    <string name="version_copied_label">Puzzles version</string>
-    <string name="save_failed_prefix">Failed to save: </string>
+    <string name="toast_swap_l_r_on">已交换点击 &amp; 长按</string>
+    <string name="toast_swap_l_r_off">不交换点击 &amp; 长按</string>
+    <string name="version_for_clipboard">版本 {0}</string>
+    <string name="version_copied">版本号已复制到剪贴板</string>
+    <string name="version_copied_label">谜题版本：</string>
+    <string name="save_failed_prefix">保存失败：</string>
     <string name="saf_missing_short">missing Storage Access Framework</string>
     <string name="cache_fail_short">failed to write to cache directory</string>
     <string name="file_too_big">This looks much too big to be a saved game</string>
     <string name="replaceGame">You have an unfinished game of {0} which this will replace. Continue loading?</string>
     <string name="undo_new_game_toast">Undoing into previous game</string>
     <string name="redo_new_game_toast">Redoing into previously generated game</string>
-    <string name="latin_m_undo_toast">Pencil marks set; undo is available</string>
+    <string name="latin_m_undo_toast">已设定铅笔标记；可以撤销</string>
     <!-- Help menu -->
     <!-- {0} is a game name -->
-    <string name="how_to_play_game">How to play {0}</string>
+    <string name="how_to_play_game">如何玩 {0}</string>
     <!-- Progress dialog when generating/resuming a game -->
-    <string name="starting">Generating game…</string>
-    <string name="resuming">Resuming game…</string>
-    <string name="reset_this_backend">Reset %s</string>
+    <string name="starting">生成游戏中…</string>
+    <string name="resuming">继续游戏中…</string>
+    <string name="reset_this_backend">重置 %s</string>
     <!-- "Completed" dialog -->
     <string name="completedPrompt">Buttons when a game is completed</string>
     <string name="completedPromptSummary">Shortcuts to start a new or different game</string>
-    <string name="victoryFlash">Animations when a game is completed</string>
-    <string name="victoryFlashSummary">Victory flash</string>
-    <string name="Change_type">Change type</string>
+    <string name="victoryFlash">游戏完成时的动画</string>
+    <string name="victoryFlashSummary">胜利闪光</string>
+    <string name="Change_type">更改类型</string>
     <!-- Chooser -->
-    <string name="games_starred">Starred (long press to toggle)</string>
-    <string name="games_others">Others</string>
-    <string name="games_others_none_starred">Long press to star a game</string>
+    <string name="games_starred">已标星（长按切换）</string>
+    <string name="games_others">其他</string>
+    <string name="games_others_none_starred">长按来标星游戏</string>
     <!-- Help activity -->
-    <string name="title_activity_help">Help</string>
+    <string name="title_activity_help">帮助</string>
     <string name="activity_not_found">No suitable application is available to handle this link</string>
     <!-- Menus -->
-    <string name="Game">Game</string>
+    <string name="Game">游戏</string>
     <string name="Other_game">Other game</string>
     <string name="New_game">New game</string>
     <string name="Restart">Restart</string>
@@ -619,10 +619,10 @@ Version %s"</string>
     <string name="Flags_go_off_grid">Flags go off grid</string>
     <string name="Flags_contradicting_each_other">Flags contradicting each other</string>
     <!-- Untangle -->
-    <string name="X_points" formatted="false">%d points</string>
-    <string name="Number_of_points">Number of points</string>
-    <string name="Number_of_points_must_be_at_least_four">Number of points must be at least four</string>
+    <string name="X_points" formatted="false">%d 个点</string>
+    <string name="Number_of_points">点的数目</string>
+    <string name="Number_of_points_must_be_at_least_four">至少应有四个点</string>
     <string name="Expected_after_number_in_game_description">Expected ‘-’ after number in game description</string>
     <string name="Expected_comma_after_number_in_game_description">Expected ‘,’ after number in game description</string>
-    <string name="Internal_error_aux_info_badly_formatted">Internal error: aux_info badly formatted</string>
+    <string name="Internal_error_aux_info_badly_formatted">内部错误：aux_info 格式有误</string>
 </resources>
