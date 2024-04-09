@@ -23,7 +23,7 @@ chris@boyle.name and I'll be happy to include it in future versions.
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- About box -->
-    <string name="about_content">"Simon Tatham 的移动谜题集合
+    <string name="about_content">"Simon Tatham 的便捷谜题集合
 版本 %s"</string>
     <string name="copy_version_number">将版本号复制到剪贴板</string>
     <!-- Things used by the Android front-end only -->
@@ -37,25 +37,25 @@ chris@boyle.name and I'll be happy to include it in future versions.
 <p>GitHub 允许添加截图与已保存游戏等等附件，但需要先创建账户。</p>
 <p>您提供给 Google 或 GitHub 的数据受其相应的条款与隐私政策管制。</p>
 ]]></string>
-    <string name="feedback_version">谜题版本号：{0}</string>
+    <string name="feedback_version">版本号：{0}</string>
     <string name="bug_dialog">不好！您遇到了缺陷：“{0}”。您想要在 GitHub 上报告此问题，以便我进行调查吗？这受 GitHub 的条款与隐私政策管制。</string>
     <string name="report">报告</string>
     <string name="cancel">取消</string>
     <string name="no_browser_title">无法启动浏览器/应用</string>
-    <string name="no_browser_body">To complete the action you requested, open this URL in a browser:</string>
-    <string name="old_file_manager">Unexpected old file manager; please tell me what app sent you here</string>
+    <string name="no_browser_body">要完成请求的操作，请在浏览器中打开此链接：</string>
+    <string name="old_file_manager">预期外的旧版本文件管理器；请告诉我您使用的应用</string>
     <string name="toast_swap_l_r_on">已交换点击 &amp; 长按</string>
     <string name="toast_swap_l_r_off">不交换点击 &amp; 长按</string>
     <string name="version_for_clipboard">版本 {0}</string>
     <string name="version_copied">版本号已复制到剪贴板</string>
-    <string name="version_copied_label">谜题版本：</string>
+    <string name="version_copied_label">版本：</string>
     <string name="save_failed_prefix">保存失败：</string>
-    <string name="saf_missing_short">missing Storage Access Framework</string>
-    <string name="cache_fail_short">failed to write to cache directory</string>
-    <string name="file_too_big">This looks much too big to be a saved game</string>
+    <string name="saf_missing_short">缺失存储访问框架</string>
+    <string name="cache_fail_short">无法写入到缓存目录</string>
+    <string name="file_too_big">文件过大，无法作为已保存游戏打开</string>
     <string name="replaceGame">You have an unfinished game of {0} which this will replace. Continue loading?</string>
-    <string name="undo_new_game_toast">Undoing into previous game</string>
-    <string name="redo_new_game_toast">Redoing into previously generated game</string>
+    <string name="undo_new_game_toast">正撤销到上次游戏</string>
+    <string name="redo_new_game_toast">正重做到上次生成的游戏</string>
     <string name="latin_m_undo_toast">已设定铅笔标记；可以撤销</string>
     <!-- Help menu -->
     <!-- {0} is a game name -->
@@ -65,9 +65,9 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="resuming">继续游戏中…</string>
     <string name="reset_this_backend">重置 %s</string>
     <!-- "Completed" dialog -->
-    <string name="completedPrompt">Buttons when a game is completed</string>
-    <string name="completedPromptSummary">Shortcuts to start a new or different game</string>
-    <string name="victoryFlash">游戏完成时的动画</string>
+    <string name="completedPrompt">游戏完成时显示按钮</string>
+    <string name="completedPromptSummary">用于开启新游戏或其他游戏的快捷按钮</string>
+    <string name="victoryFlash">游戏完成时动画</string>
     <string name="victoryFlashSummary">胜利闪光</string>
     <string name="Change_type">更改类型</string>
     <!-- Chooser -->
@@ -76,36 +76,36 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="games_others_none_starred">长按来标星游戏</string>
     <!-- Help activity -->
     <string name="title_activity_help">帮助</string>
-    <string name="activity_not_found">No suitable application is available to handle this link</string>
+    <string name="activity_not_found">未找到合适的应用处理此链接</string>
     <!-- Menus -->
     <string name="Game">游戏</string>
-    <string name="Other_game">Other game</string>
-    <string name="New_game">New game</string>
-    <string name="Restart">Restart</string>
-    <string name="Game_ID_">Game ID…</string>
-    <string name="Seed_">Seed…</string>
-    <string name="seedWarning">The current game has no seed because it was generated from a Game ID. The value above is an empty seed.</string>
-    <string name="Load_">Load…</string>
-    <string name="Save_">Save…</string>
-    <string name="Share_">Share…</string>
-    <string name="Type">Type</string>
-    <string name="Custom_">Custom…</string>
-    <string name="Help">Help</string>
-    <string name="How_to_play_this_game">How to play this game</string>
-    <string name="Project_website">Project website</string>
-    <string name="Send_feedback">Send feedback</string>
-    <string name="About_this_app">About this app</string>
-    <string name="Undo">Undo</string>
-    <string name="Redo">Redo</string>
-    <string name="Settings">Settings</string>
-    <string name="Show_solution">Show solution</string>
+    <string name="Other_game">其他游戏</string>
+    <string name="New_game">新游戏</string>
+    <string name="Restart">重新开始</string>
+    <string name="Game_ID_">游戏 ID…</string>
+    <string name="Seed_">种子…</string>
+    <string name="seedWarning">当前游戏没有种子，因为它是由游戏 ID 生成的。上方是空种子。</string>
+    <string name="Load_">载入…</string>
+    <string name="Save_">保存…</string>
+    <string name="Share_">分享…</string>
+    <string name="Type">类型</string>
+    <string name="Custom_">自定义…</string>
+    <string name="Help">帮助</string>
+    <string name="How_to_play_this_game">游玩方法</string>
+    <string name="Project_website">项目网站</string>
+    <string name="Send_feedback">发送反馈</string>
+    <string name="About_this_app">关于此应用</string>
+    <string name="Undo">撤销</string>
+    <string name="Redo">重做</string>
+    <string name="Settings">设置</string>
+    <string name="Show_solution">显示题解</string>
     <!--  Settings -->
-    <string name="gameChooser">Game chooser</string>
-    <string name="chooserStyle">Game chooser style</string>
-    <string name="chooserStyleList">Show descriptions</string>
-    <string name="chooserStyleGrid">Icons only (compact)</string>
-    <string name="thisGame">This game</string>
-    <string name="allGames">All games</string>
+    <string name="gameChooser">游戏选择界面</string>
+    <string name="chooserStyle">游戏选择界面样式</string>
+    <string name="chooserStyleList">显示描述</string>
+    <string name="chooserStyleGrid">仅图标（紧凑）</string>
+    <string name="thisGame">此游戏</string>
+    <string name="allGames">所有游戏</string>
     <string name="flashTypeNote">See also “Display and input” below to disable victory flash in all games</string>
     <string name="enableButtonNote">This can also be enabled temporarily with the button below the game</string>
     <string name="enableButtonsNote">This can also be enabled temporarily with the buttons below the game</string>
@@ -116,24 +116,24 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="displaySettings">Display</string>
     <string name="keyboardSettings">Keyboard</string>
     <string name="buttonPressesSettings">Taps / button presses</string>
-    <string name="showArrowKeys">Show arrow keys</string>
-    <string name="arrowKeysUnavailable">Arrow keys unavailable</string>
-    <string name="arrowKeysUnavailableIn">Arrow keys unavailable in {0}</string>
-    <string name="fullscreen">Full screen</string>
-    <string name="fullscreenSummary">Hide notifications</string>
-    <string name="stayAwake">Stay awake</string>
-    <string name="stayAwakeSummary">Keep screen on while in the foreground</string>
+    <string name="showArrowKeys">显示方向键</string>
+    <string name="arrowKeysUnavailable">方向键不可用</string>
+    <string name="arrowKeysUnavailableIn">无法在 {0} 中使用方向键</string>
+    <string name="fullscreen">全屏</string>
+    <string name="fullscreenSummary">隐藏通知</string>
+    <string name="stayAwake">屏幕常亮</string>
+    <string name="stayAwakeSummary">前台运行时保持屏幕开启</string>
     <string name="autoOrient">Match game orientation to screen</string>
     <string name="autoOrientSummary">Automatically swap width/height when generating a game</string>
     <string name="orientation">Screen orientation</string>
-    <string name="orientationUnspecified">Unlocked</string>
-    <string name="orientationPortrait">Portrait</string>
-    <string name="orientationLandscape">Landscape</string>
-    <string name="nightMode">Night mode</string>
-    <string name="nightModeOn">On</string>
-    <string name="nightModeAuto">In low light</string>
-    <string name="nightModeSystem">Follow system dark theme</string>
-    <string name="nightModeOff">Off</string>
+    <string name="orientationUnspecified">解锁</string>
+    <string name="orientationPortrait">纵向</string>
+    <string name="orientationLandscape">横向</string>
+    <string name="nightMode">夜间模式</string>
+    <string name="nightModeOn">开</string>
+    <string name="nightModeAuto">低亮度时</string>
+    <string name="nightModeSystem">跟随系统深色主题</string>
+    <string name="nightModeOff">关</string>
     <string name="night_mode_hint">Night mode can be disabled in Settings</string>
     <string name="limitDpi">Thicker lines for readability</string>
     <string name="limitDpiModeOff">Never (1 pixel = 1 pixel)</string>
