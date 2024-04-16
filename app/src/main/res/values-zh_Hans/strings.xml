@@ -53,7 +53,7 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="saf_missing_short">缺失存储访问框架</string>
     <string name="cache_fail_short">无法写入到缓存目录</string>
     <string name="file_too_big">文件过大，无法作为已保存游戏打开</string>
-    <string name="replaceGame">You have an unfinished game of {0} which this will replace. Continue loading?</string>
+    <string name="replaceGame">您有未完成的 {0} 游戏，将会被替换。继续加载吗？</string>
     <string name="undo_new_game_toast">正撤销到上次游戏</string>
     <string name="redo_new_game_toast">正重做到上次生成的游戏</string>
     <string name="latin_m_undo_toast">已设定铅笔标记；可以撤销</string>
@@ -106,16 +106,16 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="chooserStyleGrid">仅图标（紧凑）</string>
     <string name="thisGame">此游戏</string>
     <string name="allGames">所有游戏</string>
-    <string name="flashTypeNote">See also “Display and input” below to disable victory flash in all games</string>
-    <string name="enableButtonNote">This can also be enabled temporarily with the button below the game</string>
-    <string name="enableButtonsNote">This can also be enabled temporarily with the buttons below the game</string>
-    <string name="enableTapOutsideNote">This can also be enabled temporarily by tapping outside the grid</string>
-    <string name="arrowKeysLatinSummary">This will also keep the cursor visible</string>
-    <string name="advancedSettings">Display and input</string>
-    <string name="advancedSettingsSummary">Less frequently changed settings</string>
-    <string name="displaySettings">Display</string>
-    <string name="keyboardSettings">Keyboard</string>
-    <string name="buttonPressesSettings">Taps / button presses</string>
+    <string name="flashTypeNote">在下方的“显示与输入”中禁用所有游戏中的胜利闪光</string>
+    <string name="enableButtonNote">也可用游戏下方的按钮临时启用</string>
+    <string name="enableButtonsNote">也可用游戏下方的按钮临时启用</string>
+    <string name="enableTapOutsideNote">也可通过点击网格外部临时启用</string>
+    <string name="arrowKeysLatinSummary">这也会使光标保持可见</string>
+    <string name="advancedSettings">显示与输入</string>
+    <string name="advancedSettingsSummary">不常更改的设置</string>
+    <string name="displaySettings">显示</string>
+    <string name="keyboardSettings">键盘</string>
+    <string name="buttonPressesSettings">点按 / 按钮</string>
     <string name="showArrowKeys">显示方向键</string>
     <string name="arrowKeysUnavailable">方向键不可用</string>
     <string name="arrowKeysUnavailableIn">无法在 {0} 中使用方向键</string>
@@ -123,9 +123,9 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="fullscreenSummary">隐藏通知</string>
     <string name="stayAwake">屏幕常亮</string>
     <string name="stayAwakeSummary">前台运行时保持屏幕开启</string>
-    <string name="autoOrient">Match game orientation to screen</string>
-    <string name="autoOrientSummary">Automatically swap width/height when generating a game</string>
-    <string name="orientation">Screen orientation</string>
+    <string name="autoOrient">将游戏方向与屏幕匹配</string>
+    <string name="autoOrientSummary">生成游戏时自动交换宽度/高度</string>
+    <string name="orientation">屏幕方向</string>
     <string name="orientationUnspecified">解锁</string>
     <string name="orientationPortrait">纵向</string>
     <string name="orientationLandscape">横向</string>
@@ -134,32 +134,32 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="nightModeAuto">低亮度时</string>
     <string name="nightModeSystem">跟随系统深色主题</string>
     <string name="nightModeOff">关</string>
-    <string name="night_mode_hint">Night mode can be disabled in Settings</string>
-    <string name="limitDpi">Thicker lines for readability</string>
-    <string name="limitDpiModeOff">Never (1 pixel = 1 pixel)</string>
-    <string name="limitDpiModeAuto">Thinner as puzzle size increases (recommended)</string>
-    <string name="limitDpiModeOn">Always 160dpi (not recommended)</string>
-    <string name="undoRedoOnKeyboard">Include Undo/Redo</string>
-    <string name="undoRedoOnKeyboardSummary">Allows auto repeat (otherwise in action bar)</string>
-    <string name="keyboardBorders">Show edges of keys</string>
-    <string name="keyboardBordersSummary">Otherwise only symbols are shown</string>
-    <string name="longPressTimeout">Long-press timeout (ms)</string>
-    <string name="extMouseLongPress">Use long-press with mouse/stylus</string>
-    <string name="extMouseLongPressNever">Never (only use devices with a right/alt button)</string>
-    <string name="extMouseLongPressAuto">Auto (disable when a right/alt click is detected)</string>
-    <string name="extMouseLongPressAlways">Always (same behavior as finger presses)</string>
-    <string name="extMouseBackKey">Support right mouse button</string>
-    <string name="extMouseBackKeySummary">Override “Back” functionality of right button in puzzles</string>
-    <string name="bridgesShowH">Show “H” in Bridges"</string>
-    <string name="bridgesShowHSummary">Undocumented “solve from here” action</string>
-    <string name="unequalShowH">Show “H” in Unequal</string>
-    <string name="unequalShowHSummary">Adds all pencil marks, removes “obvious” ones, can solve entire puzzle</string>
-    <string name="latinShowM">Show “M” in Keen, Solo, Towers, Undead, Unequal</string>
-    <string name="latinShowMSummary">Button to pencil-mark all numbers (can be undone)</string>
-    <!--string name="patternShowLengths">Show drag lengths</string>
-    <string name="patternShowLengthsSummary">Show number of squares selected</string-->
-    <string name="controlsReminders">Show reminders of controls</string>
-    <string name="controlsRemindersSummary">E.g. explain long-press when starting a game</string>
+    <string name="night_mode_hint">可在设置中禁用夜间模式</string>
+    <string name="limitDpi">加粗线条以提高可读性</string>
+    <string name="limitDpiModeOff">从不（总使用 1 像素）</string>
+    <string name="limitDpiModeAuto">随谜题大小增大而变细（推荐）</string>
+    <string name="limitDpiModeOn">总使用 160dpi（不推荐）</string>
+    <string name="undoRedoOnKeyboard">包含撤销/重做</string>
+    <string name="undoRedoOnKeyboardSummary">允许自动重复（否则位于操作栏中）</string>
+    <string name="keyboardBorders">显示按键边框</string>
+    <string name="keyboardBordersSummary">若关闭则只显示符号</string>
+    <string name="longPressTimeout">长按超时（毫秒）</string>
+    <string name="extMouseLongPress">鼠标/触摸笔使用长按</string>
+    <string name="extMouseLongPressNever">从不（只使用有右键/备用按钮的设备）</string>
+    <string name="extMouseLongPressAuto">自动（检测到右键/备用按钮点击时禁用）</string>
+    <string name="extMouseLongPressAlways">总是（与手指点按行为相同）</string>
+    <string name="extMouseBackKey">支持鼠标右键</string>
+    <string name="extMouseBackKeySummary">覆盖谜题内右键按钮的“返回”功能</string>
+    <string name="bridgesShowH">在 Bridges 游戏中显示“H”按钮</string>
+    <string name="bridgesShowHSummary">未写入文档的“从这里解决”操作</string>
+    <string name="unequalShowH">在 Unequal 游戏中显示“H”按钮</string>
+    <string name="unequalShowHSummary">添加所有临时标记，移除“明显”的标记，可解决整个谜题</string>
+    <string name="latinShowM">在 Keen, Solo, Towers, Undead, Unequal 游戏中显示“M”按钮</string>
+    <string name="latinShowMSummary">临时标记所有数字的按钮（可撤销）</string>
+    <!--string name="patternShowLengths">显示拖动长度</string>
+    <string name="patternShowLengthsSummary">显示所选方格数</string-->
+    <string name="controlsReminders">显示操作提示</string>
+    <string name="controlsRemindersSummary">例如在游戏开始时说明长按用法</string>
     <!-- These are for the game chooser (detail mode) -->
     <string name="desc_blackbox">Locate the balls inside the box by firing lasers and observing how they are deflected or absorbed.</string>
     <string name="desc_bridges">Connect the islands with the given bridge counts so no bridges are crossing.</string>
@@ -206,50 +206,50 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="toast_guess">Drag colours into place, then tap smaller pegs when done</string>
     <string name="toast_tracks">Tap two edges of a square to place track</string>
     <!-- Non-obvious aspects of controls when arrow keys disabled (specifically because left/right mouse buttons hidden), shown in a toast -->
-    <string name="toast_no_arrows_dominosa">Long press to mark a divider</string>
-    <string name="toast_no_arrows_galaxies">Long press and drag to place an arrow marker</string>
-    <string name="toast_no_arrows_keen">Long press to make a pencil mark</string>
-    <string name="toast_no_arrows_magnets">Long press to place a blank</string>
-    <string name="toast_no_arrows_map">Long press and drag to make a pencil mark</string>
-    <string name="toast_no_arrows_mines">Long press to place a flag</string>
-    <string name="toast_no_arrows_net">Long press to lock a square</string>
-    <string name="toast_no_arrows_pattern">Long press to mark white squares</string>
-    <string name="toast_no_arrows_pearl">Long press to mark a cross</string>
-    <string name="toast_no_arrows_signpost">Long press and drag to connect inbound rather than outbound</string>
-    <string name="toast_no_arrows_singles">Long press to circle a number</string>
-    <string name="toast_no_arrows_slant">Long press to place /</string>
-    <string name="toast_no_arrows_solo">Long press to make a pencil mark</string>
-    <string name="toast_no_arrows_tents">Long press to mark a blank square</string>
-    <string name="toast_no_arrows_towers">Long press to make a pencil mark</string>
-    <string name="toast_no_arrows_undead">Long press to make a pencil mark</string>
-    <string name="toast_no_arrows_unequal">Long press to make a pencil mark</string>
-    <string name="toast_no_arrows_unruly">Long press to mark a white square</string>
+    <string name="toast_no_arrows_dominosa">长按以标记分割线</string>
+    <string name="toast_no_arrows_galaxies">长按并拖动以放置箭头标记</string>
+    <string name="toast_no_arrows_keen">长按以临时标记</string>
+    <string name="toast_no_arrows_magnets">长按以放置空格</string>
+    <string name="toast_no_arrows_map">长按并拖动以临时标记</string>
+    <string name="toast_no_arrows_mines">长按以放置旗子</string>
+    <string name="toast_no_arrows_net">长按以锁定方格</string>
+    <string name="toast_no_arrows_pattern">长按以标记白色方格</string>
+    <string name="toast_no_arrows_pearl">长按以标记叉号</string>
+    <string name="toast_no_arrows_signpost">长按并拖动以连接入口而非出口</string>
+    <string name="toast_no_arrows_singles">长按以圈出数字</string>
+    <string name="toast_no_arrows_slant">长按以放置 /</string>
+    <string name="toast_no_arrows_solo">长按以临时标记</string>
+    <string name="toast_no_arrows_tents">长按以标记空白方格</string>
+    <string name="toast_no_arrows_towers">长按以临时标记</string>
+    <string name="toast_no_arrows_undead">长按以临时标记</string>
+    <string name="toast_no_arrows_unequal">长按以临时标记</string>
+    <string name="toast_no_arrows_unruly">长按以标记白色方格</string>
     <!-- Everything below here is from C -->
     <!-- Difficulties for most games, in order: -->
     <string name="XxX_X" formatted="false">%dx%d %s</string>
-    <string name="Easy">Easy</string>
-    <string name="Medium">Medium</string>
-    <string name="Tricky">Tricky</string>
-    <string name="Hard">Hard</string>
+    <string name="Easy">简单</string>
+    <string name="Medium">中等</string>
+    <string name="Tricky">进阶</string>
+    <string name="Hard">困难</string>
     <!-- Difficulties for Solo (Sudoku), in order: -->
-    <string name="Trivial">Trivial</string>
-    <string name="Basic">Basic</string>
-    <string name="Intermediate">Intermediate</string>
-    <string name="Advanced">Advanced</string>
-    <string name="Extreme">Extreme</string>
-    <string name="Unreasonable">Unreasonable</string>
+    <string name="Trivial">简单</string>
+    <string name="Basic">基本</string>
+    <string name="Intermediate">进阶</string>
+    <string name="Advanced">高级</string>
+    <string name="Extreme">专家</string>
+    <string name="Unreasonable">无理</string>
     <!-- "Map" is different again and uses Easy, Normal, Hard, Unreasonable -->
-    <string name="Normal">Normal</string>
+    <string name="Normal">一般</string>
     <!-- Dialog titles and labels: %s is a game name here -->
-    <string name="X_configuration">%s configuration</string>
-    <string name="X_random_selection">%s random selection</string>
-    <string name="X_game_selection">%s game selection</string>
-    <string name="Error">Error</string>
-    <string name="Game_ID">Game ID</string>
-    <string name="Seed">Seed</string>
+    <string name="X_configuration">%s 配置</string>
+    <string name="X_random_selection">%s 随机选择</string>
+    <string name="X_game_selection">%s 游戏选择</string>
+    <string name="Error">错误</string>
+    <string name="Game_ID">游戏 ID</string>
+    <string name="Seed">种子</string>
     <!-- Types of symmetry -->
-    <string name="Symmetry">Symmetry</string>
-    <string name="None">None</string>
+    <string name="Symmetry">对称</string>
+    <string name="None">无</string>
     <string name="_2_way_diagonal_mirror">2-way diagonal mirror</string>
     <string name="_2_way_mirror">2-way mirror</string>
     <string name="_2_way_rotational">2-way rotational</string>
@@ -271,41 +271,41 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="Game_description_in_save_file_is_missing">Game description in save file is missing</string>
     <string name="Game_description_in_save_file_is_invalid">Game description in save file is invalid</string>
     <string name="Game_private_description_in_save_file_is_invalid">Game private description in save file is invalid</string>
-    <string name="Game_position_in_save_file_is_out_of_range">Game position in save file is out of range</string>
-    <string name="Save_file_contained_an_invalid_move">Save file contained an invalid move</string>
-    <string name="Save_file_contained_an_invalid_restart_move">Save file contained an invalid restart move</string>
+    <string name="Game_position_in_save_file_is_out_of_range">存档文件中的游戏位置超出范围</string>
+    <string name="Save_file_contained_an_invalid_move">存档文件中有无效步骤</string>
+    <string name="Save_file_contained_an_invalid_restart_move">存档文件中有无效重置步骤</string>
     <!-- Some more things common to multiple games -->
-    <string name="Active_X_X" formatted="false">Active: %d/%d</string>
-    <string name="Auto_solved">Auto-solved.</string>
-    <string name="Auto_solver_used">Auto-solver used.</string>
+    <string name="Active_X_X" formatted="false">活动：%d/%d</string>
+    <string name="Auto_solved">已自动解决。</string>
+    <string name="Auto_solver_used">使用了自动解决。</string>
     <string name="Barrier_probability">Barrier probability</string>
     <string name="Barrier_probability_may_not_be_negative">Barrier probability may not be negative</string>
     <string name="Barrier_probability_may_not_be_greater_than_1">Barrier probability may not be greater than 1</string>
-    <string name="COMPLETED">COMPLETED!</string>
-    <string name="DEAD">DEAD!</string>
-    <string name="Deaths_X" formatted="false">Deaths: %d</string>
-    <string name="Difficulty">Difficulty</string>
-    <string name="Ensure_solubility">Ensure solubility</string>
-    <string name="Ensure_unique_solution">Ensure unique solution</string>
+    <string name="COMPLETED">完成！</string>
+    <string name="DEAD">你死了！</string>
+    <string name="Deaths_X" formatted="false">死亡次数：%d</string>
+    <string name="Difficulty">难度</string>
+    <string name="Ensure_solubility">保证有解</string>
+    <string name="Ensure_unique_solution">保证唯一解</string>
     <string name="Excess_junk_at_end_of_string">Excess junk at end of string</string>
-    <string name="Expected_comma_after_number">Expected comma after number</string>
-    <string name="Invalid_character_in_game_description">Invalid character in game description</string>
-    <string name="Game_description_is_corrupted">Game description is corrupted</string>
-    <string name="Game_description_is_wrong_length">Game description is wrong length</string>
+    <string name="Expected_comma_after_number">数字后需要英文逗号</string>
+    <string name="Invalid_character_in_game_description">游戏描述中有无效字符</string>
+    <string name="Game_description_is_corrupted">游戏描述已损坏</string>
+    <string name="Game_description_is_wrong_length">游戏描述长度有误</string>
     <string name="Game_description_longer_than_expected">Game description longer than expected</string>
     <string name="Game_description_shorter_than_expected">Game description shorter than expected</string>
-    <string name="Grid_area_must_be_greater_than_one">Grid area must be greater than one</string>
-    <string name="Height">Height</string>
-    <string name="Moves_since_auto_solve_X" formatted="false">Moves since auto-solve: %d</string>
-    <string name="Moves_X" formatted="false">Moves: %d</string>
-    <string name="_target_X" formatted="false">(target %d)</string>
+    <string name="Grid_area_must_be_greater_than_one">网格区域必须大于 1</string>
+    <string name="Height">高度</string>
+    <string name="Moves_since_auto_solve_X" formatted="false">自动求解后步数：%d</string>
+    <string name="Moves_X" formatted="false">步数：%d</string>
+    <string name="_target_X" formatted="false">（目标 %d）</string>
     <string name="Not_enough_data_to_fill_grid">Not enough data to fill grid</string>
     <string name="Not_enough_numbers_in_string">Not enough numbers in string</string>
     <string name="Number_of_shuffling_moves">Number of shuffling moves</string>
-    <string name="Number_out_of_range">Number out of range</string>
-    <string name="Number_out_of_range_in_game_description">Number out of range in game description</string>
+    <string name="Number_out_of_range">数字超出范围</string>
+    <string name="Number_out_of_range_in_game_description">数字超出游戏描述中范围</string>
     <string name="Number_used_twice">Number used twice</string>
-    <string name="Random">Random</string>
+    <string name="Random">随机</string>
     <string name="Solution_not_known_for_this_puzzle">Solution not known for this puzzle</string>
     <string name="Solve_operation_failed">Solve operation failed</string>
     <string name="This_puzzle_is_not_self_consistent">This puzzle is not self-consistent</string>
@@ -324,7 +324,7 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="Widths_and_heights_greater_than_255_are_not_supported">Widths and heights greater than 255 are not supported</string>
     <string name="Minimum_number_of_balls_may_not_be_greater_than_maximum">Minimum number of balls may not be greater than maximum</string>
     <string name="Too_many_balls_to_fit_in_grid">Too many balls to fit in grid</string>
-    <string name="CORRECT">CORRECT!</string>
+    <string name="CORRECT">正确！</string>
     <string name="X_wrong_and_X_missed_balls" formatted="false">%d wrong and %d missed balls.</string>
     <string name="Wrong_Guess_again">Wrong! Guess again.</string>
     <string name="X_too_many_balls_marked" formatted="false">%d too many balls marked.</string>
@@ -483,9 +483,9 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="No_comma_after_initial_x_coordinate_in_game_description">No ‘,’ after initial x-coordinate in game description</string>
     <string name="No_uniqueness_specifier_in_game_description">No uniqueness specifier in game description</string>
     <string name="No_comma_after_uniqueness_specifier_in_game_description">No ‘,’ after uniqueness specifier in game description</string>
-    <string name="Initial_x_coordinate_was_out_of_range">Initial x-coordinate was out of range</string>
+    <string name="Initial_x_coordinate_was_out_of_range">Initial x-coordinate was 超出范围</string>
     <string name="No_initial_y_coordinate_in_game_description">No initial y-coordinate in game description</string>
-    <string name="Initial_y_coordinate_was_out_of_range">Initial y-coordinate was out of range</string>
+    <string name="Initial_y_coordinate_was_out_of_range">Initial y-coordinate was 超出范围</string>
     <string name="No_comma_after_initial_y_coordinate_in_game_description">No ‘,’ after initial y-coordinate in game description</string>
     <string name="Game_has_not_been_started_yet">Game has not been started yet</string>
     <string name="Marked_X_X" formatted="false">Marked: %d / %d</string>
@@ -503,55 +503,55 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="unrecognised_character_in_game_specification">unrecognised character in game specification</string>
     <string name="Solving_algorithm_cannot_complete_this_puzzle">Solving algorithm cannot complete this puzzle</string>
     <!-- Pegs -->
-    <string name="Board_type">Board type</string>
-    <string name="Cross">Cross</string>
-    <string name="Octagon">Octagon</string>
-    <string name="Width_and_height_must_both_be_greater_than_three">Width and height must both be greater than three</string>
-    <string name="This_board_type_is_only_supported_at_7x7">This board type is only supported at 7x7</string>
+    <string name="Board_type">棋盘类型</string>
+    <string name="Cross">十字形</string>
+    <string name="Octagon">八角形</string>
+    <string name="Width_and_height_must_both_be_greater_than_three">宽度与高度均必须大于 3</string>
+    <string name="This_board_type_is_only_supported_at_7x7">此棋盘只支持 7x7 大小</string>
     <!-- Range -->
-    <string name="Error_w_h_is_too_big">Error: w + h is too big</string>
+    <string name="Error_w_h_is_too_big">错误：w + h 过大</string>
     <!-- Rectangles -->
-    <string name="Expansion_factor">Expansion factor</string>
-    <string name="Expansion_factor_may_not_be_negative">Expansion factor may not be negative</string>
+    <string name="Expansion_factor">扩展因数</string>
+    <string name="Expansion_factor_may_not_be_negative">扩展因数不可为负数</string>
     <!-- Same Game -->
-    <string name="XxX_X_colours" formatted="false">%dx%d, %d colours</string>
-    <string name="No_of_colours">No. of colours</string>
-    <string name="Scoring_system">Scoring system</string>
+    <string name="XxX_X_colours" formatted="false">%dx%d，%d 种颜色</string>
+    <string name="No_of_colours">颜色编号</string>
+    <string name="Scoring_system">分数系统</string>
     <string name="_n_1_2">(n-1)^2</string>
     <string name="_n_2_2">(n-2)^2</string>
-    <string name="Maximum_of_9_colours">Maximum of 9 colours</string>
+    <string name="Maximum_of_9_colours">最大为 9 种颜色</string>
     <string name="Number_of_colours_must_be_at_least_three">Number of colours must be at least three</string>
     <string name="Too_many_colours_makes_given_grid_size_impossible">Too many colours makes given grid size impossible</string>
     <string name="Scoring_system_not_recognised">Scoring system not recognised</string>
-    <string name="Colour_out_of_range">Colour out of range</string>
-    <string name="Score_X" formatted="false">Score: %d</string>
-    <string name="Cannot_move">Cannot move!</string>
+    <string name="Colour_out_of_range">Colour 超出范围</string>
+    <string name="Score_X" formatted="false">得分：%d</string>
+    <string name="Cannot_move">无法移动！</string>
     <string name="Selected_X_X" formatted="false">Selected: %d (%d)</string>
     <!-- Signpost -->
     <string name="XxX_free_ends" formatted="false">%dx%d, free ends</string>
-    <string name="Start_and_end_in_corners">Start and end in corners</string>
-    <string name="Width_and_height_cannot_both_be_two">Width and height cannot both be two</string>
+    <string name="Start_and_end_in_corners">起点与终点位于角落</string>
+    <string name="Width_and_height_cannot_both_be_two">宽度与高度不可同时为 2</string>
     <!-- Singles -->
-    <string name="Puzzle_is_too_large">Puzzle is too large</string>
+    <string name="Puzzle_is_too_large">谜题过大</string>
     <!-- Sixteen: all strings in that game are common! -->
     <!-- Slant: all strings in that game are common! -->
     <!-- Solo -->
-    <string name="_2x2_Trivial">2x2 Trivial</string>
-    <string name="_2x3_Basic">2x3 Basic</string>
-    <string name="_3x3_Trivial">3x3 Trivial</string>
-    <string name="_3x3_Basic">3x3 Basic</string>
-    <string name="_3x3_Basic_X">3x3 Basic X</string>
-    <string name="_3x3_Intermediate">3x3 Intermediate</string>
-    <string name="_3x3_Advanced">3x3 Advanced</string>
-    <string name="_3x3_Advanced_X">3x3 Advanced X</string>
-    <string name="_3x3_Extreme">3x3 Extreme</string>
-    <string name="_3x3_Unreasonable">3x3 Unreasonable</string>
-    <string name="_3x3_Killer">3x3 Killer</string>
-    <string name="_9_Jigsaw_Basic">9 Jigsaw Basic</string>
-    <string name="_9_Jigsaw_Basic_X">9 Jigsaw Basic X</string>
+    <string name="_2x2_Trivial">2x2 简单</string>
+    <string name="_2x3_Basic">2x3 基本</string>
+    <string name="_3x3_Trivial">3x3 简单</string>
+    <string name="_3x3_Basic">3x3 基本</string>
+    <string name="_3x3_Basic_X">3x3 基本 X</string>
+    <string name="_3x3_Intermediate">3x3 进阶</string>
+    <string name="_3x3_Advanced">3x3 高级</string>
+    <string name="_3x3_Advanced_X">3x3 高级 X</string>
+    <string name="_3x3_Extreme">3x3 专家</string>
+    <string name="_3x3_Unreasonable">3x3 无理</string>
+    <string name="_3x3_Killer">3x3 杀手</string>
+    <string name="_9_Jigsaw_Basic">9 Jigsaw 基本</string>
+    <string name="_9_Jigsaw_Basic_X">9 Jigsaw 基本 X</string>
     <string name="_9_Jigsaw_Advanced">9 Jigsaw Advanced</string>
-    <string name="_3x4_Basic">3x4 Basic</string>
-    <string name="_4x4_Basic">4x4 Basic</string>
+    <string name="_3x4_Basic">3x4 基本</string>
+    <string name="_4x4_Basic">4x4 基本</string>
     <string name="Columns_of_sub_blocks">Columns of sub-blocks</string>
     <string name="Rows_of_sub_blocks">Rows of sub-blocks</string>
     <string name="Size_of_sub_blocks">Size of sub-blocks</string><!-- Android-specific hack -->
@@ -580,8 +580,8 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="Invalid_character_in_number_list">Invalid character in number list</string>
     <string name="Unexpected_additional_data_at_end_of_game_description">Unexpected additional data at end of game description</string>
     <!-- Towers -->
-    <string name="Grid_size">Grid size</string>
-    <string name="Clue_number_out_of_range">Clue number out of range</string>
+    <string name="Grid_size">网格大小</string>
+    <string name="Clue_number_out_of_range">线索数超出范围</string>
     <string name="Grid_size_must_be_between_3_and_9">Grid size must be between 3 and 9</string>
     <string name="Too_few_clues_for_grid_size">Too few clues for grid size</string>
     <string name="Too_many_clues_for_grid_size">Too many clues for grid size</string>
@@ -604,20 +604,20 @@ chris@boyle.name and I'll be happy to include it in future versions.
     <string name="Height_must_be_at_least_the_rotating_block_size">Height must be at least the rotating block size</string>
     <string name="Expected_orientation_letter_after_number">Expected orientation letter after number</string>
     <!-- Unequal -->
-    <string name="Mode">Mode</string>
-    <string name="Unequal">Unequal</string>
-    <string name="Adjacent">Adjacent</string>
+    <string name="Mode">模式</string>
+    <string name="Unequal">不等</string>
+    <string name="Adjacent">相邻</string>
     <!-- An extra difficulty level, meaning solving the puzzle requires a recursive approach -->
-    <string name="Recursive">Recursive</string>
-    <string name="Size_s_s">Size (s*s)</string>
+    <string name="Recursive">递归</string>
+    <string name="Size_s_s">大小 (s*s)</string>
     <string name="Order_must_be_between_3_and_32">Order must be between 3 and 32</string>
     <string name="Order_must_be_at_least_5_for_Adjacent_puzzles_of_this_difficulty">Order must be at least 5 for Adjacent puzzles of this difficulty</string>
     <string name="Unknown_difficulty_rating">Unknown difficulty rating</string>
     <string name="Expecting_number_in_game_description">Expecting number in game description</string>
     <string name="Expecting_flag_URDL_in_game_description">Expecting flag URDL in game description</string>
-    <string name="Missing_separator">Missing separator</string>
-    <string name="Flags_go_off_grid">Flags go off grid</string>
-    <string name="Flags_contradicting_each_other">Flags contradicting each other</string>
+    <string name="Missing_separator">缺失分隔符</string>
+    <string name="Flags_go_off_grid">标记位于网格外</string>
+    <string name="Flags_contradicting_each_other">标记相互矛盾</string>
     <!-- Untangle -->
     <string name="X_points" formatted="false">%d 个点</string>
     <string name="Number_of_points">点的数目</string>
